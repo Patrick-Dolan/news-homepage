@@ -4,6 +4,10 @@ body {
   font-family: "Inter", serif;
 }
 
+p {
+  font-size: 15px;
+}
+
 /* Footer Styles */
 .attribution { 
   font-size: 11px; 
