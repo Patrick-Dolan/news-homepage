@@ -1,6 +1,14 @@
-
 /* Global Styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
 body {
+  margin: 0;
   font-family: "Inter", serif;
 }
 
@@ -8,11 +16,25 @@ p {
   font-size: 15px;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* Header/Nav */
+nav > ul {
+  list-style-type: none;
+  color: hsl(236, 13%, 42%);
+  font-weight: 700;
+}
+
 /* Footer Styles */
 .attribution { 
   font-size: 11px; 
   text-align: center; 
 }
+
 .attribution a { 
   color: hsl(228, 45%, 44%); 
 }
