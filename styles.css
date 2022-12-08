@@ -141,6 +141,10 @@ nav > ul {
   margin: 0;
 }
 
+.card h3 {
+  font-size: 1rem;
+}
+
 /* Footer Styles */
 .attribution { 
   font-size: 11px; 
@@ -164,6 +168,14 @@ nav > ul {
 
   .icon-menu {
     display: none;
+  }
+
+  /* Main Stories */
+
+  .main-stories {
+    display: flex;
+    gap: 1.5em;
+    margin-bottom: 2em;
   }
 
   /* Featured Story */
@@ -193,16 +205,23 @@ nav > ul {
     margin-bottom: 3.5em;
   }
 
-  .main-stories {
-    display: flex;
-    gap: 1.5em;
-  }
-
   #featured-story {
     width: 65%;
   }
 
   #new-story-feed {
     width: 35%;
+  }
+
+  /* Story Card */
+
+  .story-cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+  }
+
+  .card {
+    height: 9em;
   }
 }
