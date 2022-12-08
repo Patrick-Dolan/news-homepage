@@ -22,11 +22,32 @@ p {
   max-width: 1000px;
 }
 
+.logo {
+  height: 1.75em;
+}
+
 /* Header/Nav */
+nav {
+  display: none;
+}
+
 nav > ul {
   list-style-type: none;
   color: hsl(236, 13%, 42%);
   font-weight: 700;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+  padding-bottom: 2em;
+}
+
+.icon-menu {
+  height: 1em;
+  align-self: center;
 }
 
 /* Footer Styles */
@@ -37,4 +58,19 @@ nav > ul {
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 600px) {
+  nav {
+    display: block;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 2em;
+  }
+
+  .icon-menu {
+    display: none;
+  }
 }
