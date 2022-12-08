@@ -119,6 +119,28 @@ nav > ul {
   margin: 0;
 }
 
+/* Story Cards */
+
+.card {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.card img {
+  max-width: 30%;
+}
+
+.card-text {
+  margin: 0;
+}
+
+.card h2 {
+  color: hsl(233, 8%, 79%);
+  font-size: 2em;
+  margin: 0;
+}
+
 /* Footer Styles */
 .attribution { 
   font-size: 11px; 
