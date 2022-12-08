@@ -90,6 +90,35 @@ nav > ul {
   margin-bottom: 2em;
 }
 
+/* New story feed */
+
+#new-story-feed {
+  background-color: hsl(240, 100%, 5%);
+  color: white;
+  padding: 1em 0;
+  margin-bottom: 2em;
+}
+
+#new-story-feed hr {
+  border: none;
+  border-top: 1px solid hsl(236, 13%, 42%);
+  margin: 2em 0;
+}
+
+#new-story-feed h2 {
+  font-size: 1.25rem;
+}
+
+#new-story-feed p {
+  color: hsl(233, 8%, 79%);
+}
+
+.new-story-feed__header {
+  color: hsl(35, 77%, 62%);
+  font-size: 2rem;
+  margin: 0;
+}
+
 /* Footer Styles */
 .attribution { 
   font-size: 11px; 
