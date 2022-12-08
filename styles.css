@@ -35,8 +35,10 @@ p {
 }
 
 .btn:hover,
-.btn:focus {
-  background-color: hsl(35, 77%, 62%);
+.btn:focus,
+a:hover,
+a:focus  {
+  opacity: 75%;
 }
 
 /* Header/Nav */
@@ -44,11 +46,12 @@ nav {
   display: none;
 }
 
-nav > ul {
+nav > ul > a {
   list-style-type: none;
+  text-decoration: none;
   color: hsl(236, 13%, 42%);
   font-weight: 700;
-}
+}   
 
 .navbar {
   display: flex;
@@ -155,7 +158,7 @@ nav > ul {
   color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
   /* Header/Nav */
   nav {
     display: block;
