@@ -35,10 +35,8 @@ p {
 }
 
 .btn:hover,
-.btn:focus,
-a:hover,
-a:focus  {
-  opacity: 75%;
+.btn:focus {
+  background-color: hsl(240, 100%, 5%);
 }
 
 /* Header/Nav */
@@ -46,12 +44,20 @@ a:focus  {
   display: none;
 }
 
-nav > ul > a {
+.desktop-nav__link,
+.mobile-nav__link {
   list-style-type: none;
   text-decoration: none;
   color: hsl(236, 13%, 42%);
   font-weight: 700;
-}   
+} 
+
+.desktop-nav__link:hover,
+.desktop-nav__link:focus,
+.mobile-nav__link:hover,
+.mobile-nav__link:focus {
+  color:hsl(5, 85%, 63%)
+}
 
 .navbar {
   display: flex;
@@ -147,6 +153,16 @@ nav > ul > a {
   margin: 2em 0;
 }
 
+.new-story-feed__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.new-story-feed__link:hover,
+.new-story-feed__link:focus {
+  color: hsl(35, 77%, 62%);
+}
+
 #new-story-feed h2 {
   font-size: 1.25rem;
 }
@@ -160,6 +176,7 @@ nav > ul > a {
   font-size: 2rem;
   margin: 0;
 }
+
 
 /* Story Cards */
 
@@ -175,6 +192,16 @@ nav > ul > a {
 
 .card-text {
   margin: 0;
+}
+
+.card__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.card__link:hover,
+.card__link:focus {
+  color: hsl(5, 85%, 63%);
 }
 
 .card h2 {
