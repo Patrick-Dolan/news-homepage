@@ -166,8 +166,8 @@ p {
   color: hsl(35, 77%, 62%);
 }
 
-#new-story-feed h2 {
-  font-size: 1.25rem;
+.new-story-feed__sub-header {
+  font-size: 1.2rem;
 }
 
 #new-story-feed p {
