@@ -43,9 +43,11 @@ p {
 .desktop-nav {
   display: none;
 }
-
 .desktop-nav li {
   list-style-type: none;
+}
+
+.desktop-nav a {
   text-decoration: none;
   color: hsl(236, 13%, 42%);
   font-weight: 700;
@@ -80,12 +82,15 @@ p {
   background-color: #fff;
 }
 
+.mobile-nav__list a {
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+}
+
 .mobile-nav__list {
   padding-top: 7em;
   padding-left: 1.5em;
   list-style-type: none;
-  text-decoration: none;
-  color: hsl(236, 13%, 42%);
   font-weight: 700;
 }
 
