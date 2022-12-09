@@ -42,7 +42,7 @@ a:focus  {
 }
 
 /* Header/Nav */
-.nav {
+.desktop-nav {
   display: none;
 }
 
@@ -67,7 +67,7 @@ nav > ul > a {
 
 .mobile-nav__active {
   display: block;
-  position: absolute;
+  position: fixed;
   right: 0px;
   top: 0px;
   z-index: 3;
@@ -86,11 +86,11 @@ nav > ul > a {
 
 #shader {
   display: none;
-  position: absolute;
+  position: fixed;
   right: 0px;
   top: 0px;
-  min-width: 100vh;
-  min-height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
   opacity: 60%;
   background-color: #000;
   z-index: 2;
@@ -98,8 +98,6 @@ nav > ul > a {
 
 .icon-menu {
   height: 1em;
-  align-self: center;
-  justify-self: flex-end;
 }
 
 .icon-menu-close {
@@ -200,12 +198,8 @@ nav > ul > a {
 }
 
 @media (min-width: 900px) {
-  /* Header/Nav */
-  nav {
-    display: block;
-  }
-  
-  .nav {
+  /* Header/Nav */  
+  .desktop-nav {
     display: flex;
     gap: 2em;
   }
