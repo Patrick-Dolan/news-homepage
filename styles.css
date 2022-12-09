@@ -42,7 +42,7 @@ a:focus  {
 }
 
 /* Header/Nav */
-nav {
+.nav {
   display: none;
 }
 
@@ -61,9 +61,50 @@ nav > ul > a {
   padding-bottom: 2em;
 }
 
+.mobile-nav__inactive {
+  display: none;
+}
+
+.mobile-nav__active {
+  display: block;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 3;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.mobile-nav__list {
+  padding-top: 7em;
+  padding-left: 1.5em;
+}
+
+.mobile-nav__list li {
+  padding-bottom: 1.5em;
+}
+
+#shader {
+  display: none;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  min-width: 100vh;
+  min-height: 100vh;
+  opacity: 60%;
+  background-color: #000;
+  z-index: 2;
+}
+
 .icon-menu {
   height: 1em;
   align-self: center;
+  justify-self: flex-end;
+}
+
+.icon-menu-close {
+  float: right;
+  margin: 1.5em 1em 0 0;
 }
 
 /* Main Stories */
