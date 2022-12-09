@@ -26,4 +26,18 @@ $(() => {
       $("#mobile-nav").addClass("mobile-nav__inactive")
     })
   });
+
+  // Close mobile nav if shader is clicked 
+  $("#shader").click(() => {
+    // Hide shader
+    $("#shader").fadeOut(500);
+    
+    // Hide mobile nav
+    $("#mobile-nav").animate({
+      width: "0%"
+    }, 500, () => {
+      $("#mobile-nav").removeClass("mobile-nav__active")
+      $("#mobile-nav").addClass("mobile-nav__inactive")
+    })
+  })
 })
