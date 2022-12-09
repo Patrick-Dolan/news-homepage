@@ -44,13 +44,12 @@ p {
   display: none;
 }
 
-.desktop-nav__link,
-.mobile-nav__link {
+.desktop-nav li {
   list-style-type: none;
   text-decoration: none;
   color: hsl(236, 13%, 42%);
   font-weight: 700;
-} 
+}
 
 .desktop-nav__link:hover,
 .desktop-nav__link:focus,
@@ -84,6 +83,10 @@ p {
 .mobile-nav__list {
   padding-top: 7em;
   padding-left: 1.5em;
+  list-style-type: none;
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+  font-weight: 700;
 }
 
 .mobile-nav__list li {
