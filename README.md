@@ -10,7 +10,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
+  - [Takeaways](#takeaways)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -42,7 +42,7 @@ Users should be able to:
 - Mobile-first workflow
 - jQuery
 
-### Continued development
+### Takeaways
 
 The two big things I want to take away from this project and into future ones are learning more about BEM naming with CSS and Flexbox. 
 
